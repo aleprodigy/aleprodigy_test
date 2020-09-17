@@ -15,10 +15,10 @@
 }
 
 .header_area .main-menu .nav-item .nav-link {
-    font-family: var(--gloria);
+    font-family: var(--roboto);
     font-weight: 500;
     padding: 1.7rem;
-    color: var(--primary-color);
+    color: white;
 }
 
 .header_area .main-menu .navbar-nav .active a {
@@ -28,6 +28,10 @@
     background-clip: text;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: var(--text-color);
+}
+
 .header_area .main-menu .navbar-nav a:hover {
     background: var(--gradient-color);
     -webkit-background-clip: text;
@@ -35,9 +39,9 @@
     background-clip: text;
 }
 
-.header_area .main-menu .nav-item .nav-link span {
+span {
     font: 0.6em;
-    color: steelblue;
+    color: var(--primary-color2);
 }
 
 
@@ -67,7 +71,7 @@
     content: '';
     height: 2px;
     width: 18vw;
-    background: black;
+    background: gray;
     display: inline-block;
     margin-left: 5%;
     transform: translateY(-10px);

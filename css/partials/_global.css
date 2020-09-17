@@ -3,12 +3,13 @@
 /* Global Classes */ 
 
 .title-text{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #414345;
+    font-family: var(--roboto);
+    color: lightgreen;
     font-size: 2.6em;
 }
 
 /* Buttons */ 
+
 
 .button{
     margin: 1rem;
@@ -16,12 +17,14 @@
     font: normal 500 16px/20px sans-serif;
     position: relative;
     border: 3px solid transparent;
-    border-radius: 4px;
+    border-radius: 500px;
+}
+
+.button a i {
+    color: #fff;
 }
 
 .button.primary-button{
-    border-radius: 0 15px 0 15px;
-    transition: background .6ms ease;
     background: var(--gradient-color);
     background-clip: padding-box;
     color: whitesmoke;
@@ -29,14 +32,14 @@
 }
 
 .button.primary-button:hover{
+    border-radius: 0 15px 0 15px;
+    transition: background .6ms ease;
     background: var(--gradient-color2);
     background-clip: padding-box;
     color: white;
 }
 
-
 .button.secondary-button{
-    border-radius: 0 15px 0 15px;
     background: var(--gradient-color2);
     color: white;
     background-clip: padding-box;
@@ -44,6 +47,7 @@
 }
 
 .button.secondary-button:hover{
+    border-radius: 0 15px 0 15px;
     background: var(--gradient-color);
     color: whitesmoke;
     background-clip: padding-box;
@@ -51,6 +55,7 @@
 }
 
 p.para{
+    text-align: justify;
     color: var(--text-color);
     font: normal 500 16px/ 25px var(--roboto);
 }
