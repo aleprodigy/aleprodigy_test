@@ -43,6 +43,15 @@
 
 /*end navigation*/
 
+
+/*img perfil*/
+
+.img-fluid {
+    border-radius: 100%;
+    height: 100%;
+}
+
+
 /*banner area */
 
 .site-main .site-banner {
