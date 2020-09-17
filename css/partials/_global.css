@@ -24,6 +24,16 @@
     color: #fff;
 }
 
+.button.login-button {
+    background: var(--primary-color);
+}
+
+.button.login-button:hover {
+    background: var(--primary-color2);
+}
+
+
+
 .button.primary-button{
     background: var(--gradient-color);
     background-clip: padding-box;

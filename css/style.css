@@ -3,6 +3,7 @@
 @import url(./fonts.css);
 @import url(/css/partials/_variables.css);
 @import url(/css/partials/_global.css);
+@import url(/css/mobile.css);
 
 /*start navigation*/
 
@@ -58,19 +59,28 @@ span {
 
 /*banner area */
 
+.site-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
 .site-main .site-banner {
     background: url(/img/banner/home-banner.png) no-repeat 0% 50%;
 }
 
+
 .site-main .site-banner .site-title h3 {
-    padding-top: 35%;
+    padding-top: 36%;
     font-weight: 500px;
 }
 
 .site-main .site-banner .site-title h3::after {
     content: '';
-    height: 2px;
-    width: 18vw;
+    height: 0.2px;
+    width: 20vw;
     background: gray;
     display: inline-block;
     margin-left: 5%;
@@ -99,3 +109,18 @@ span {
 
 
 /*end banner area */
+
+/*start about area */
+
+.site-main .about-area {
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+    display: block;
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+/*start about area */
+
