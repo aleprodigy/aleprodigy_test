@@ -1,6 +1,6 @@
 ### Wazuup guys, BELEZA?! 👋
 
-💻 Facinado em tecnologia e inovação...
+💻 Fascinado por tecnologia e inovação...
 
 Desde os **12 anos** fui de "fuçar" e aprender sobre programação, pois na época a internet era muito ruim, então sempre que funcionava, para garantir que teria algo para fazer quando ela resolvesse cair, eu tirava prints de posts em fórum's e baixava apostilas em PDF de assuntos voltados à inúmeros assuntos que eu nem tinha noção da complexidade.
 
