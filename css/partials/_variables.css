@@ -19,7 +19,7 @@ html, body{
     --primary-color2: #617afc;
     --title-color: ##fff;
     --text-color: #adadb0;  
-    --border-color: ##fff;  
+    --border-color: #adadb0;  
     --gradient-color: linear-gradient(90deg, #232526  60%, #414345 100%);
     --gradient-color2: linear-gradient(90deg, #232526 100%, #414345 50%);
     --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
