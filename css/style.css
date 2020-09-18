@@ -122,9 +122,6 @@ span {
     
 }
 
-.site-main .about-area .about-me {
-}
-
 .site-main .about-area .about-title h2 > span {
     display: block;
     font: normal bold 70px/68px var(--roboto);
@@ -169,24 +166,6 @@ span {
     filter: invert(0.1)
 }
 
-.site-main .brand-area .tecnologias {
-    /*background-attachment: fixed;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-}
-
-.site-main .brand-area .experience-area h2 {
-    display: block;
-    font-size: 3rem;
-}
-
-.site-main .brand-area .experience-area span {
-    font-size: 2rem;
-    display: block;
-}
-
 .site-main .brand-area .experience-area {
     padding: 2rem 0;
     width: 5rem;
@@ -194,6 +173,12 @@ span {
     padding-left: 8rem;
     position: relative;
 }
+
+.site-main .brand-area .experience-area .years-area .years {
+    font: normal bold 34px/40px var(--roboto);
+}
+
+
 
 /*end brand area */
 
