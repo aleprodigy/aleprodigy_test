@@ -1,33 +1,21 @@
-body {
-    font-family: var(--roboto), Helvetica, Arial, sans-serif;
-    color: var(--text-global);
-    background: url('/img/banner/home-banner.png') no-repeat var(--background);
+
+
+/* Global Classes */ 
+
+.title-text{
+    font-family: var(--roboto);
+    color: lightgreen;
+    font-size: 2.6em;
 }
-
-.button-menu {
-    text-transform: uppercase;
-    background-color: var(--primary-color);
-    color: black;
-    text-decoration: none;
-    font-size: 1.1em;
-    border-radius: 500px;
-    margin: 1rem;
-    padding: 0.5em;
-}   
-
-.button-menu:hover {
-    background-color: var(--background);
-    border: 3px solid white;
-    color: white;
-}
-
 
 /* Buttons */ 
 
+
 .button{
     margin: 1rem;
-    padding: .6rem 2.0rem;
+    padding: .8rem 2.2rem;
     font: normal 500 16px/20px sans-serif;
+    position: relative;
     border: 3px solid transparent;
     border-radius: 500px;
 }
@@ -109,17 +97,4 @@ button:hover
     box-shadow: var(--box-shadow);
     z-index: 999;
     transition: background 1s ease;
-}
-
-/*
-profile
-*/
-
-.img {
-    width: 17rem;
-    border-radius: 150px;
-}
-
-#profile h2, h1, p {
-    color: var(--primary-color); 
 }

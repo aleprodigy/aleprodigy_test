@@ -1,0 +1,186 @@
+/* Imports fonts from fonts.css file */
+
+@import url(./fonts.css);
+@import url(/css/partials/_variables.css);
+@import url(/css/partials/_global.css);
+@import url(/css/main.css);
+
+/*start navigation*/
+
+.header_area .main-menu .navbar .navbar-brand {
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar {
+    padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+    font-family: var(--roboto);
+    font-weight: 500;
+    padding: 1.7rem;
+    color: white;
+}
+
+.header_area .main-menu .navbar-nav .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--text-color);
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+span {
+    font: 0.6em;
+    color: var(--primary-color2);
+}
+
+
+/*end navigation*/
+
+
+/*img perfil*/
+
+.img-fluid {
+    border-radius: 100%;
+}
+
+
+/*banner area */
+
+.site-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.site-main .site-banner {
+    background: url(/img/banner/home-banner.png) no-repeat 0% 50%;
+}
+
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 36%;
+    font-weight: 500px;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: '';
+    height: 0.2px;
+    width: 20vw;
+    background: gray;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.4rem;
+}
+
+.site-main .site-banner .banner-image > img {
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+.site-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.2px solid gray;
+}
+
+
+/*end banner area */
+
+/*start about area */
+
+.site-main .about-area {
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.site-main .about-area .about-title h2 > span {
+    display: block;
+    font: normal bold 70px/68px var(--roboto);
+    letter-spacing: 21px;
+}
+
+/*end about area */
+
+/*start brand area */
+
+.site-main .brand-area {
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand {
+    text-align: center;
+    padding: 1.6rem 0.1rem;
+    margin: .9rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > img {
+    width: 100%;
+}
+
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover {
+    box-shadow: var(--primary-color);
+    transform: scale(1.1);
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > img:hover {
+    filter: invert(0.1)
+}
+
+.site-main .brand-area .experience-area {
+    padding: 2rem 0;
+    width: 5rem;
+    height: 16rem;
+    padding-left: 8rem;
+    position: relative;
+}
+
+.site-main .brand-area .experience-area .years-area .years {
+    font: normal bold 34px/40px var(--roboto);
+}
+
+
+
+/*end brand area */
+
+
+
