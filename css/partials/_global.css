@@ -4,6 +4,47 @@ body {
     background: url('/img/banner/home-banner.png') no-repeat var(--background);
 }
 
+h1, h2, h3 {
+    margin: 0;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+p::after {
+    content: '|';
+    margin-left: 2px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1.5;
+    }
+
+}
+
+/* Buttons */ 
+
+
+.botao {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: var(--background-botao);
+    font-size: .9em;
+    border-radius: 3px;
+}
+
 .button-menu {
     text-transform: uppercase;
     background-color: var(--primary-color);
@@ -21,8 +62,6 @@ body {
     color: white;
 }
 
-
-/* Buttons */ 
 
 .button{
     margin: 1rem;
@@ -76,11 +115,6 @@ body {
     box-shadow: var(--box-shadow);
 }
 
-p.para{
-    text-align: justify;
-    color: var(--text-color);
-    font: normal 500 18px/ 25px var(--roboto);
-}
 
 .font-roboto{
     font-family: var(--roboto);
