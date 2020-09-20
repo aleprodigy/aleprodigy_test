@@ -1,32 +1,6 @@
 @import url(/css/partials/variable.css);
 
 /*
-GERAL
-*/
-
-body {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    color: var(--text-global);
-    background: var(--background);
-}
-
-h1, h2, h3 {
-    margin: 0;
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-}
-
-.botao {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 10px 30px;
-    color: #fff;
-    background-color: var(--background-botao);
-    font-size: .9em;
-    border-radius: 3px;
-}
-
-/*
 NAVEGAÇÃO
 */
 
