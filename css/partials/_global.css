@@ -152,6 +152,7 @@ profile
 .img {
     width: 17rem;
     border-radius: 150px;
+    max-width: 350px;
 }
 
 #profile h2, h1, p {

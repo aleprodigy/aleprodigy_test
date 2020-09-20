@@ -81,6 +81,12 @@ footer h4 {
     }
 }
 
+@media screen and (max-height: 640px) {
+     #profile {
+        height: 100%;
+    }
+}
+
 @media screen and (max-width: 375px) {
     #profile img {
         width: 12em;
