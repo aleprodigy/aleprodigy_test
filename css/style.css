@@ -24,6 +24,8 @@ nav ul li {
 }
 
 #profile {
+    height: 100vh;
+    border: 5px solid var(--border-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,6 +42,7 @@ nav ul li {
 }
 
 #profile h1 {
+    text-align: center;
     margin: 4px;
     font-size: 4em;
 }
@@ -59,7 +62,6 @@ nav ul li {
 
 #social button {
     border: 4px solid var(--border-color);
-    justify-content: space-between;
 }
 
 footer h4 {
@@ -126,8 +128,5 @@ footer h4 {
         border-radius: 170px;
     }
 
-
-    #social button {
-    }
 
 }
