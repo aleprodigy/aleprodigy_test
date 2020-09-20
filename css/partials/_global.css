@@ -2,6 +2,7 @@ body {
     font-family: var(--roboto), Helvetica, Arial, sans-serif;
     color: var(--text-global);
     background: url('/img/banner/home-banner.png') no-repeat var(--background);
+    height: 100vh;
 }
 
 h1, h2, h3 {
