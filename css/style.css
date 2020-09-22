@@ -63,6 +63,11 @@ footer h4 {
         margin-top: 36px;
     }
 
+    h1 span {
+        font-size: .7em;
+        margin-bottom: 20px;
+    }
+
     #social {
         width: 100vw;
         margin-bottom: 20px;
@@ -116,7 +121,7 @@ footer h4 {
     #profile h1 {
         text-align: end;
         margin: 30px;
-        font-size: 90px;
+        font-size: 150px;
     }
 
     #profile p {
