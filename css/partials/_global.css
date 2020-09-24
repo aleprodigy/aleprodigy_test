@@ -1,7 +1,7 @@
 body {
     font-family: var(--roboto), Helvetica, Arial, sans-serif;
     color: var(--text-global);
-    background: url('/img/banner/home-banner.png') no-repeat var(--background);
+    background: no-repeat var(--background);
     height: 100vh;
 }
 
@@ -22,7 +22,6 @@ h1 {
     display: flex;
     width: 100%;
     height: 100%;
-    display: grid;
     align-items: center;
     justify-content: center;
 }

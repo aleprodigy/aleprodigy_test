@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/navbar_style.css">
 </head>
-<body>
+<body onload="mudarBg()">
 
     <!--NAV-->
 
@@ -86,7 +86,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#" class="nav-link" id="light">
                     
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="adjust" class="svg-inline--fa fa-adjust fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <g class="fa-group">
@@ -114,7 +114,7 @@
 
               <div id="text">                  
                 <h1>
-                  <span>Ascencio Jr</span>
+                  <span id="meunome">Ascencio Jr</span>
                 </h1>
                   <p>Full Stack Developer 🚀</p>
               </div>
@@ -161,6 +161,9 @@
 
     <!--Write-->
     <script src="/js/write.js"></script>
+
+    <!--BG-->
+    <script src="/js/light.js"></script>
 
 </body>
 </html>

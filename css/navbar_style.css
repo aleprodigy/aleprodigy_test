@@ -5,7 +5,7 @@
     --text-secondary: #ececec;
     --bg-primary: #1D1D1F;
     --bg-secondary: #141418;
-    --transition-speed: 600ms;
+    --transition-speed: 300ms;
 }
 
 body::-webkit-scrollbar {
@@ -18,11 +18,6 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
     background: lightgreen;
-}
-
-.nv {
-    margin-left: 5rem;
-    padding: 1rem;
 }
 
 .navbar {
@@ -58,23 +53,27 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nav-link:hover {
-    filter: grayscale(0%) opacity(1);
+    filter: grayscale(0%) opacity(5);
     color: var(--text-secondary);
 }
 
 .nav-link svg {
-    min-width: 1.5rem;
+    min-width: 1.9rem;
     margin: 0 1.5rem;
+}
+
+.nav-link svg:hover {
+    min-width: 2.5rem;
+    transition: var(--transition-speed);
 }
 
 .navbar:hover .link-text {
     display: block;
 }
 
+
 /*logo
 */
-
-
 
 .logo span{
     width: 100%;
@@ -97,10 +96,12 @@ body::-webkit-scrollbar-thumb {
     transition: var(--transition-speed);
 }
 
+
 /*
-small screen */
+tela mobile pequena */
 
 @media only screen and (max-width: 600px) {
+
     .navbar {
         bottom: 0;
         width: 100vw;
@@ -123,11 +124,16 @@ small screen */
     .nv {
         margin:0;
         margin-bottom: 2em;
+        padding: 1rem;
+    }
+
+    #profile h1 {
+        font-size: 6em;
     }
 }
 
 /*
-large screens*/
+tablet e pc*/
 
 @media only screen and (min-width: 600px) {
     .navbar {
