@@ -1,7 +1,7 @@
 body {
     font-family: var(--roboto), Helvetica, Arial, sans-serif;
     color: var(--text-global);
-    background: no-repeat var(--background);
+    background: var(--background);
     height: 100vh;
 }
 

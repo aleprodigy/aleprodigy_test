@@ -1,7 +1,7 @@
 
 function typeWriter(elemento) {
     const textoArray = elemento.innerHTML.split('')
-    elemento.innerHTML = ''
+    elemento.innerHTML = ``
     textoArray.forEach((letra, i) => {
         setTimeout(() => elemento.innerHTML += letra, 95 * i);
     });
@@ -9,3 +9,5 @@ function typeWriter(elemento) {
 
 const titulo = document.querySelector('p')
 typeWriter(titulo)
+
+
